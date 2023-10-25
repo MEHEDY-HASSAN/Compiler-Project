@@ -1,0 +1,110 @@
+!BRINGING anything.h
+
+Main()
+{
+
+
+    `` single line comment
+	`! Multiple 
+		line
+			comment
+	!`
+
+    Float trigonometric 
+    trigonometric = sin(10) 
+    trigonometric = cos(10) 
+    trigonometric = tan(10) 
+    trigonometric = log10(10) 
+
+    InTe x 
+    x = 17 
+    x = 17*x+15 
+    Display(x) 
+
+    `` Random number generator
+    x = Random(7,20)
+    Random(1,6)
+    Display(x)
+
+    x = Factorial(3)
+    Display(x)
+
+    Float aa, bb 
+    aa=5.5 
+    bb=10.10 
+    Display(aa) 
+    Display(bb) 
+
+
+    IS_Prime(37) 
+	IS_Prime(20) 
+
+	Factorial(5) 
+    Power(2,3) 
+    InTe p, q  
+    p = 1000/10 
+    q = 100*2 
+    Min(p, q) 
+    Max(p, q) 
+	
+
+    InTe xyz 
+    take(xyz) 
+    xyz = 9 
+    if(xyz<=10){
+        Display(xyz) 
+    }
+    elif(xyz==100){
+        xyz = xyz+10 
+        Display(xyz) 
+    }
+    nothingmatches{
+        xyz = xyz*5 
+        Display(xyz) 
+    }
+    
+    InTe z 
+    z=10 
+    loop 1 to 5 ++ 1
+    {
+        Display(z) 
+    } 
+
+    loop 5 to 1 -- 1
+    {
+        Display(z) 
+    } 
+
+    until(5)  
+    `` while loop
+
+    InTe m, n, g 
+    n = 100 
+    m = 200 
+    g=2 
+
+	match(g){
+		when 1 {
+		    `` do what needs to be done
+			Display(m) 
+		}
+        when 2 {
+            `` do what needs to be done
+			Display(n) 
+		}
+		jar_keu_nai{
+            `` do what needs to be done
+			Display(g) 
+		}
+	}
+
+    if ( m != n )
+    { 
+           Display(m) 
+    } 
+    nothingmatches
+    {
+        Display(b1) 
+    }
+    
+}
